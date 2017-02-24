@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430892D51E2BF0C70055BB5C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430892D41E2BF0C70055BB5C /* LogInViewController.swift */; };
+		430892D71E2BF1070055BB5C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430892D61E2BF1070055BB5C /* SignUpViewController.swift */; };
+		430892D91E2C04910055BB5C /* countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = 430892D81E2C04910055BB5C /* countries.txt */; };
+		4377284E1E28F40100D1970A /* FirebaseFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4377284D1E28F40100D1970A /* FirebaseFunctions.swift */; };
+		43E68C6B1E264351005D00B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E68C6A1E264351005D00B8 /* AppDelegate.swift */; };
+		43E68C6D1E264351005D00B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E68C6C1E264351005D00B8 /* ViewController.swift */; };
+		43E68C701E264351005D00B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E68C6E1E264351005D00B8 /* Main.storyboard */; };
+		43E68C721E264351005D00B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E68C711E264351005D00B8 /* Assets.xcassets */; };
+		43E68C751E264351005D00B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E68C731E264351005D00B8 /* LaunchScreen.storyboard */; };
+		43E68C7D1E264452005D00B8 /* FunctionalProgrammingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E68C7C1E264452005D00B8 /* FunctionalProgrammingSwift.swift */; };
+		43E68C7F1E2644C3005D00B8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E68C7E1E2644C3005D00B8 /* API.swift */; };
+		43E68C811E2644C9005D00B8 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E68C801E2644C9005D00B8 /* Method.swift */; };
+		43E68C831E264E5D005D00B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43E68C821E264E5D005D00B8 /* GoogleService-Info.plist */; };
+		C7F4C6E02B1C767D6EA8F1E7 /* Pods_appPickImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03B1C7B0B540F7EE96E0F25 /* Pods_appPickImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E5C546B9F09F9A07A1D7C61 /* Pods-appPickImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appPickImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appPickImage/Pods-appPickImage.debug.xcconfig"; sourceTree = "<group>"; };
+		430892D41E2BF0C70055BB5C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		430892D61E2BF1070055BB5C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		430892D81E2C04910055BB5C /* countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.txt; sourceTree = "<group>"; };
+		4359AD601E28FC7F00BCCCC1 /* appPickImage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appPickImage.entitlements; sourceTree = "<group>"; };
+		4377284D1E28F40100D1970A /* FirebaseFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseFunctions.swift; path = ../../../FirebaseFunctions.swift; sourceTree = "<group>"; };
+		43E68C671E264351005D00B8 /* appPickImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appPickImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E68C6A1E264351005D00B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43E68C6C1E264351005D00B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43E68C6F1E264351005D00B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43E68C711E264351005D00B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43E68C741E264351005D00B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43E68C761E264351005D00B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E68C7C1E264452005D00B8 /* FunctionalProgrammingSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalProgrammingSwift.swift; sourceTree = "<group>"; };
+		43E68C7E1E2644C3005D00B8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		43E68C801E2644C9005D00B8 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		43E68C821E264E5D005D00B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A03B1C7B0B540F7EE96E0F25 /* Pods_appPickImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appPickImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F285EB925E173FFBF5E14680 /* Pods-appPickImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appPickImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-appPickImage/Pods-appPickImage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43E68C641E264351005D00B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F4C6E02B1C767D6EA8F1E7 /* Pods_appPickImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CE2B8EF7BC1709BD82BD9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E5C546B9F09F9A07A1D7C61 /* Pods-appPickImage.debug.xcconfig */,
+				F285EB925E173FFBF5E14680 /* Pods-appPickImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43E68C5E1E264351005D00B8 = {
+			isa = PBXGroup;
+			children = (
+				43E68C691E264351005D00B8 /* appPickImage */,
+				43E68C681E264351005D00B8 /* Products */,
+				07CE2B8EF7BC1709BD82BD9B /* Pods */,
+				6D4CF5FC6AC7A9AC95030141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43E68C681E264351005D00B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E68C671E264351005D00B8 /* appPickImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E68C691E264351005D00B8 /* appPickImage */ = {
+			isa = PBXGroup;
+			children = (
+				430892D81E2C04910055BB5C /* countries.txt */,
+				4359AD601E28FC7F00BCCCC1 /* appPickImage.entitlements */,
+				43E68C6A1E264351005D00B8 /* AppDelegate.swift */,
+				43E68C6C1E264351005D00B8 /* ViewController.swift */,
+				43E68C7E1E2644C3005D00B8 /* API.swift */,
+				4377284D1E28F40100D1970A /* FirebaseFunctions.swift */,
+				430892D41E2BF0C70055BB5C /* LogInViewController.swift */,
+				430892D61E2BF1070055BB5C /* SignUpViewController.swift */,
+				43E68C801E2644C9005D00B8 /* Method.swift */,
+				43E68C7C1E264452005D00B8 /* FunctionalProgrammingSwift.swift */,
+				43E68C6E1E264351005D00B8 /* Main.storyboard */,
+				43E68C711E264351005D00B8 /* Assets.xcassets */,
+				43E68C731E264351005D00B8 /* LaunchScreen.storyboard */,
+				43E68C761E264351005D00B8 /* Info.plist */,
+				43E68C821E264E5D005D00B8 /* GoogleService-Info.plist */,
+			);
+			path = appPickImage;
+			sourceTree = "<group>";
+		};
+		6D4CF5FC6AC7A9AC95030141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A03B1C7B0B540F7EE96E0F25 /* Pods_appPickImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43E68C661E264351005D00B8 /* appPickImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E68C791E264351005D00B8 /* Build configuration list for PBXNativeTarget "appPickImage" */;
+			buildPhases = (
+				48DA699CB4B0D8F37496AB0D /* [CP] Check Pods Manifest.lock */,
+				43E68C631E264351005D00B8 /* Sources */,
+				43E68C641E264351005D00B8 /* Frameworks */,
+				43E68C651E264351005D00B8 /* Resources */,
+				078B1AEC809281500EFB9B7F /* [CP] Embed Pods Frameworks */,
+				83E986F05D4CFA4595D18481 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appPickImage;
+			productName = appPickImage;
+			productReference = 43E68C671E264351005D00B8 /* appPickImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E68C5F1E264351005D00B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tai Duong";
+				TargetAttributes = {
+					43E68C661E264351005D00B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UNY776NMSF;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 43E68C621E264351005D00B8 /* Build configuration list for PBXProject "appPickImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43E68C5E1E264351005D00B8;
+			productRefGroup = 43E68C681E264351005D00B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E68C661E264351005D00B8 /* appPickImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43E68C651E264351005D00B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E68C751E264351005D00B8 /* LaunchScreen.storyboard in Resources */,
+				43E68C721E264351005D00B8 /* Assets.xcassets in Resources */,
+				43E68C831E264E5D005D00B8 /* GoogleService-Info.plist in Resources */,
+				430892D91E2C04910055BB5C /* countries.txt in Resources */,
+				43E68C701E264351005D00B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		078B1AEC809281500EFB9B7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appPickImage/Pods-appPickImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48DA699CB4B0D8F37496AB0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83E986F05D4CFA4595D18481 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appPickImage/Pods-appPickImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E68C631E264351005D00B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E68C811E2644C9005D00B8 /* Method.swift in Sources */,
+				43E68C6D1E264351005D00B8 /* ViewController.swift in Sources */,
+				430892D71E2BF1070055BB5C /* SignUpViewController.swift in Sources */,
+				4377284E1E28F40100D1970A /* FirebaseFunctions.swift in Sources */,
+				430892D51E2BF0C70055BB5C /* LogInViewController.swift in Sources */,
+				43E68C6B1E264351005D00B8 /* AppDelegate.swift in Sources */,
+				43E68C7F1E2644C3005D00B8 /* API.swift in Sources */,
+				43E68C7D1E264452005D00B8 /* FunctionalProgrammingSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43E68C6E1E264351005D00B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E68C6F1E264351005D00B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43E68C731E264351005D00B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E68C741E264351005D00B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43E68C771E264351005D00B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43E68C781E264351005D00B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43E68C7A1E264351005D00B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5C546B9F09F9A07A1D7C61 /* Pods-appPickImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = appPickImage/appPickImage.entitlements;
+				DEVELOPMENT_TEAM = UNY776NMSF;
+				INFOPLIST_FILE = appPickImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imbaggaarm.appPickImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43E68C7B1E264351005D00B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F285EB925E173FFBF5E14680 /* Pods-appPickImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = appPickImage/appPickImage.entitlements;
+				DEVELOPMENT_TEAM = UNY776NMSF;
+				INFOPLIST_FILE = appPickImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imbaggaarm.appPickImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E68C621E264351005D00B8 /* Build configuration list for PBXProject "appPickImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E68C771E264351005D00B8 /* Debug */,
+				43E68C781E264351005D00B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E68C791E264351005D00B8 /* Build configuration list for PBXNativeTarget "appPickImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E68C7A1E264351005D00B8 /* Debug */,
+				43E68C7B1E264351005D00B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E68C5F1E264351005D00B8 /* Project object */;
+}
