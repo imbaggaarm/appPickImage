@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+//fdskfjdksljfkldjslkfjkldsjfkljdslkfjldksjflkjsdlkfjklsdjflksdjklfjdslkjfkldsjlfk
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     let imgV: UIImageView = {
     
